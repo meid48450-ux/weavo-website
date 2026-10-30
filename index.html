@@ -3,223 +3,163 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#101d35">
-<meta name="referrer" content="no-referrer-when-downgrade">
-<meta name="description" content="WEAVO - أقمشة متنوعة، أكياس قماش منسوج، طباعة DTF على التيشيرتات والهوديز، وطباعة على الخشب حسب الطلب.">
-<title>WEAVO | أقمشة وطباعة حسب الطلب</title>
+<meta name="theme-color" content="#315c4b">
+<title>WEAVO | خامات وطباعة مخصصة</title>
 <style>
-:root{--navy:#111111;--navy2:#242424;--orange:#c9a227;--orange2:#e6cc75;--paper:#f7f5ef;--white:#fff;--ink:#191919;--muted:#6d685d;--line:#e8e0cc;--green:#25845a;--shadow:0 18px 55px #17130b18}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--paper);color:var(--ink);overflow-x:hidden}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}.topbar{background:var(--navy);color:#fff;text-align:center;padding:10px 14px;font-size:12px;letter-spacing:.2px}.topbar b{color:var(--orange2)}.nav{position:sticky;top:0;z-index:30;background:#ffffffed;backdrop-filter:blur(14px);border-bottom:1px solid #e8ebf1}.navinner{max-width:1200px;margin:auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-family:Arial,sans-serif;font-size:37px;font-weight:900;letter-spacing:-2px;direction:ltr;color:var(--navy);white-space:nowrap}.logo span{color:var(--orange)}.logo small{display:block;font-family:Tahoma,Arial;font-size:9px;letter-spacing:2.4px;text-align:center;color:var(--muted);font-weight:700;margin-top:-2px}.navlinks{display:flex;gap:20px;align-items:center;font-size:13px;font-weight:700}.navlinks a{transition:.25s}.navlinks a:hover{color:var(--orange)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--orange);color:#fff;padding:13px 21px;border-radius:10px;font-size:14px;font-weight:700;border:1px solid transparent;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s;box-shadow:0 8px 22px #c9a22730}.btn:hover{transform:translateY(-3px);box-shadow:0 13px 28px #c9a22740;background:#a88612}.btn.dark{background:var(--navy);box-shadow:0 8px 22px #101d3520}.btn.outline{background:transparent;color:var(--navy);border-color:#d3d9e3;box-shadow:none}.btn.outline:hover{border-color:var(--orange);color:var(--orange)}.hero{position:relative;isolation:isolate;max-width:1200px;margin:auto;padding:75px 24px 55px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:45px;min-height:540px}.hero:before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:#c9a22714;top:25px;right:-220px;z-index:-1}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#9a7710;font-size:12px;font-weight:900;letter-spacing:.5px}.eyebrow:before{content:"";width:23px;height:3px;border-radius:5px;background:var(--orange)}.hero h1{font-size:clamp(36px,4.7vw,61px);line-height:1.28;margin:18px 0;color:var(--navy);letter-spacing:-1.4px}.hero h1 span{color:var(--orange)}.hero p{font-size:16px;line-height:2.1;color:var(--muted);max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.trustline{display:flex;gap:15px;align-items:center;margin-top:27px;color:var(--muted);font-size:12px;flex-wrap:wrap}.trustline span{display:flex;align-items:center;gap:6px}.trustline i{font-style:normal;color:var(--green);font-size:17px}.hero-visual{position:relative;min-height:390px;border-radius:30px;background:linear-gradient(145deg,#e9eef7,#fff 60%,#f4e8bd);overflow:hidden;box-shadow:var(--shadow);border:1px solid #fff}.orb{position:absolute;border-radius:50%;filter:blur(1px);animation:float 7s ease-in-out infinite}.orb.one{width:170px;height:170px;background:#c9a2272b;top:18px;left:35px}.orb.two{width:115px;height:115px;background:#234b8220;right:20px;bottom:25px;animation-delay:-2s}.fabricroll{position:absolute;width:190px;height:255px;left:45px;bottom:45px;border-radius:22px;background:repeating-linear-gradient(90deg,#ffb276 0 4px,#f69a50 4px 8px);transform:rotate(12deg);box-shadow:0 25px 35px #101d3524}.fabricroll:before{content:"";position:absolute;top:-16px;left:0;width:100%;height:36px;border-radius:50%;background:repeating-radial-gradient(ellipse at center,#ffe2c7 0 3px,#f3a15c 4px 7px);border:3px solid #ef994d}.fabricroll:after{content:"WEAVO";position:absolute;top:43%;left:0;right:0;text-align:center;font:900 27px Arial;letter-spacing:2px;color:#fff;text-shadow:0 2px 8px #9e4b1744}.shirt{position:absolute;width:190px;height:205px;right:53px;top:60px;filter:drop-shadow(0 18px 16px #101d3524);animation:float 5s ease-in-out infinite}.shirt svg{width:100%;height:100%}.woodframe{position:absolute;right:45px;bottom:33px;width:150px;height:116px;border:12px solid #b98048;background:#fff9e9;box-shadow:0 12px 24px #101d3522;transform:rotate(-7deg);display:flex;align-items:center;justify-content:center;color:var(--navy);font-weight:900;font-size:17px}.woodframe:before{content:"✦";position:absolute;top:8px;color:var(--orange);font-size:20px}.floating-label{position:absolute;background:#fff;padding:11px 15px;border-radius:12px;box-shadow:0 9px 28px #101d3518;font-size:12px;font-weight:800;animation:float 6s ease-in-out infinite}.label1{top:28px;right:25px}.label2{bottom:23px;left:23px;animation-delay:-3s}.stats{max-width:1150px;margin:0 auto 35px;padding:0 24px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.stat{background:#fff;border:1px solid var(--line);border-radius:15px;padding:20px 22px;display:flex;align-items:center;gap:14px;box-shadow:0 8px 24px #101d3507}.stat .icon{width:45px;height:45px;display:grid;place-items:center;border-radius:12px;background:#f8efcf;font-size:22px}.stat strong{display:block;color:var(--navy);font-size:15px;margin-bottom:5px}.stat small{font-size:12px;color:var(--muted)}section{padding:78px 24px}.section-inner{max-width:1150px;margin:auto}.section-head{text-align:center;max-width:720px;margin:0 auto 38px}.section-head h2{font-size:clamp(27px,3.2vw,39px);line-height:1.4;color:var(--navy);margin:13px 0}.section-head p{font-size:14px;line-height:2;color:var(--muted);margin:0}.section-head .eyebrow{justify-content:center}.section-head .eyebrow:after{content:"";width:23px;height:3px;border-radius:5px;background:var(--orange)}.fabrics{background:#fff}.fabric-grid,.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.fabric-card,.service-card{background:#fff;border:1px solid var(--line);border-radius:17px;overflow:hidden;transition:transform .3s,box-shadow .3s,border-color .3s}.fabric-card:hover,.service-card:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:#e8d48c}.swatch{height:220px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#f1f3f7}.photo-swatch:before{display:none}.web-photo{width:100%;height:100%;object-fit:cover;display:block;transition:transform .65s cubic-bezier(.2,.7,.2,1)}.fabric-card:hover .web-photo,.service-card:hover .web-photo{transform:scale(1.07)}.photo-badge{position:absolute;bottom:12px;right:12px;background:#101d35d9;color:#fff;padding:8px 11px;border-radius:7px;font:800 10px Arial,sans-serif;letter-spacing:1px;box-shadow:0 6px 18px #0002}.photo-art{padding:0;background:#e9edf4}.photo-art .web-photo{position:absolute;inset:0}.photo-art .print-stamp{z-index:2}.fabric-info,.service-info{padding:18px}.fabric-info h3,.service-info h3{margin:0 0 8px;color:var(--navy);font-size:17px}.fabric-info p,.service-info p{margin:0;color:var(--muted);font-size:12px;line-height:1.9}.mini-link{display:inline-flex;margin-top:14px;color:#9a7710;font-size:12px;font-weight:900;align-items:center;gap:6px}.mini-link:hover{gap:11px}.services{background:var(--paper)}.service-grid{grid-template-columns:repeat(3,1fr)}.service-art{height:230px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(145deg,#e6edf8,#fdfefe)}.service-art.dtf{background:linear-gradient(145deg,#e4e9f4,#fff0e4)}.print-stamp{position:absolute;top:18px;right:18px;background:#fff;border-radius:30px;padding:8px 12px;font-size:11px;font-weight:900;color:var(--navy);box-shadow:0 6px 15px #101d3512}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}.chips span{font-size:10px;background:#f2f4f8;border-radius:30px;padding:7px 9px;color:#526075}.service-info .btn{width:100%;margin-top:18px;padding:12px}.process{background:var(--navy);color:#fff;position:relative;overflow:hidden}.process:after{content:"WEAVO";position:absolute;font:900 180px Arial;letter-spacing:-8px;color:#ffffff05;left:-20px;bottom:-30px;pointer-events:none}.process .section-head h2{color:#fff}.process .section-head p{color:#c4cddd}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;position:relative;z-index:1}.step{border:1px solid #ffffff1d;background:#ffffff08;border-radius:15px;padding:24px}.step b{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;background:var(--orange);color:#fff;font-size:17px}.step h3{font-size:16px;margin:18px 0 9px}.step p{font-size:12px;line-height:1.9;color:#c4cddd;margin:0}.contact{background:#fff}.contactbox{background:var(--navy);border-radius:25px;padding:40px;color:#fff;display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;box-shadow:var(--shadow)}.contact-copy h2{font-size:32px;line-height:1.45;margin:12px 0}.contact-copy p{color:#c5cedc;font-size:13px;line-height:2}.contact-copy .eyebrow{color:var(--orange2)}.contact-note{margin-top:23px;padding:15px;border-radius:12px;background:#ffffff0d;font-size:12px;line-height:1.9;color:#dce3ed}.quoteform{display:grid;grid-template-columns:1fr 1fr;gap:12px}.quoteform input,.quoteform select,.quoteform textarea{width:100%;min-width:0;padding:14px;border:1px solid #ffffff25;background:#ffffff0c;color:#fff;border-radius:9px;font-size:13px;outline:none;transition:border .2s}.quoteform input::placeholder,.quoteform textarea::placeholder{color:#b9c4d4}.quoteform select option{background:#fff;color:#172033}.quoteform input:focus,.quoteform select:focus,.quoteform textarea:focus{border-color:var(--orange)}.quoteform textarea{grid-column:1/-1;min-height:105px;resize:vertical}.quoteform button{grid-column:1/-1;width:100%;padding:15px;border:0;border-radius:9px;background:var(--orange);color:#fff;font-weight:900;cursor:pointer;transition:.25s}.quoteform button:hover{background:#a88612;transform:translateY(-2px)}.footer{background:#0a1426;color:#aab5c6;padding:28px 24px;text-align:center;font-size:12px}.footer strong{color:#fff}.wa{position:fixed;left:20px;bottom:20px;z-index:40;background:var(--green);color:#fff;border-radius:30px;padding:13px 17px;box-shadow:0 9px 25px #0002;font-size:13px;font-weight:900;display:flex;gap:8px;align-items:center;transition:.25s}.wa:hover{transform:translateY(-4px)}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:translateY(0)}.delay1{transition-delay:.08s}.delay2{transition-delay:.16s}.delay3{transition-delay:.24s}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
-@media(max-width:900px){.navlinks{gap:11px;font-size:11px}.navinner{gap:12px}.navinner>.btn{padding:11px 13px;font-size:12px}.hero{gap:25px}.fabric-grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.contactbox{grid-template-columns:1fr}.contact-copy h2{font-size:28px}}
-@media(max-width:650px){.navinner{padding:12px 16px;flex-wrap:wrap}.logo{font-size:32px}.navinner>.btn{margin-right:auto}.navlinks{order:3;width:100%;overflow-x:auto;justify-content:flex-start;padding:4px 0 7px;gap:19px;white-space:nowrap;font-size:12px}.hero{grid-template-columns:1fr;padding:45px 18px 35px;min-height:auto}.hero h1{font-size:39px}.hero p{font-size:14px}.hero-visual{min-height:325px}.fabricroll{width:145px;height:200px;left:25px;bottom:40px}.shirt{width:145px;height:160px;right:35px;top:48px}.woodframe{width:118px;height:92px;right:30px;bottom:25px;border-width:9px;font-size:14px}.stats{grid-template-columns:1fr;padding:0 18px;margin-bottom:15px}.stat{padding:15px}.stat .icon{width:40px;height:40px}section{padding:58px 18px}.section-head{margin-bottom:28px}.section-head h2{font-size:28px}.section-head p{font-size:13px}.fabric-grid{grid-template-columns:1fr;gap:16px}.swatch{height:200px}.fabric-info{padding:15px}.fabric-info h3{font-size:15px}.service-grid{grid-template-columns:1fr}.service-art{height:215px}.steps{grid-template-columns:1fr}.contactbox{padding:25px 18px;gap:25px}.quoteform{grid-template-columns:1fr}.quoteform textarea,.quoteform button{grid-column:auto}.contact-copy h2{font-size:26px}.wa{left:12px;bottom:12px;padding:12px 14px;font-size:12px}}
-
-/* WEAVO black & gold refresh */
-.topbar{background:#090909;color:#f8f5eb}
-.nav{background:rgba(255,255,255,.96);border-bottom:1px solid #d8c78d;box-shadow:0 5px 20px #11111108}
-.logo span,.hero h1 span{color:#c9a227}
-.btn{background:linear-gradient(135deg,#d8b644,#b18a16);color:#111;box-shadow:0 8px 22px #b18a1628}
-.btn:hover{background:linear-gradient(135deg,#e6cc75,#c9a227);color:#080808;box-shadow:0 13px 28px #b18a1638}
-.btn.dark{background:#111;color:#f4d875;box-shadow:0 8px 22px #1112}
-.btn.outline{color:#171717;border-color:#d6c68e}
-.btn.outline:hover{border-color:#b18a16;color:#9a7710}
-.hero:before{background:#c9a22718}
-.hero-visual{background:linear-gradient(145deg,#eee7d4,#fffdf7 60%,#e9d79c);border:1px solid #e4d7ad}
-.orb.one{background:#c9a22735}.orb.two{background:#11111112}
-.fabricroll{background:repeating-linear-gradient(90deg,#e6cc75 0 4px,#c9a227 4px 8px)}
-.fabricroll:before{background:repeating-radial-gradient(ellipse at center,#fff0bd 0 3px,#c9a227 4px 7px);border-color:#b18a16}
-.woodframe{border-color:#b18a16}
-.stat .icon{background:#f8efcf}
-section{position:relative;border-bottom:1px solid #e8e0cc}
-.fabrics{background:#fffdf8}
-.services{background:#f3efe4}
-#wood{background:#fffaf0}
-.process{background:#171717;color:#f8f5eb}
-.process .section-head h2,.process .step h3{color:#f8f5eb}
-.process .section-head p,.process .step p{color:#c9c3b4}
-.process .eyebrow{color:#e6cc75}
-.process .step{background:#222;border:1px solid #4a4127}
-.process .step b{color:#e6cc75}
-.contact{background:linear-gradient(135deg,#f5f0df,#fffdf8)}
-.contactbox{border:1px solid #dfcf98;box-shadow:0 18px 55px #17130b12}
-.footer{background:#090909;color:#e9e2d0}
-.footer strong{color:#e6cc75}
-.wa{background:#111;color:#f4d875;border:1px solid #c9a227;box-shadow:0 8px 24px #1113}
-.wa:hover{background:#c9a227;color:#111}
-.fabric-card,.service-card{border-color:#e6dfce;box-shadow:0 5px 20px #11111105}
-.fabric-card:hover,.service-card:hover{border-color:#c9a227;box-shadow:0 18px 45px #17130b18}
-.photo-badge{background:#111e;color:#f4d875;border:1px solid #c9a22755}
-.mini-link{color:#9a7710}
-.eyebrow{color:#9a7710}
-.eyebrow:before,.section-head .eyebrow:after{background:#c9a227}
-@media(max-width:700px){section{padding:58px 17px}.hero{padding-top:48px}.section-head{margin-bottom:27px}}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Montserrat:wght@700;900&display=swap');
+:root{--bg:#f4f0e8;--paper:#fffdf8;--ink:#202b27;--muted:#68766e;--green:#315c4b;--green2:#244638;--orange:#c9784b;--line:#e5ded1;--shadow:0 18px 45px rgba(35,48,40,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cairo',sans-serif}
+a{text-decoration:none;color:inherit}button{font-family:inherit}.top{background:var(--green2);color:#f7eee0;text-align:center;padding:9px 15px;font-size:12px}
+header{position:sticky;top:0;z-index:20;background:rgba(255,253,248,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{max-width:1180px;margin:auto;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{font:900 30px Montserrat,sans-serif;letter-spacing:-1.5px;color:var(--green);white-space:nowrap}.logo span{color:var(--orange)}
+.links{display:flex;align-items:center;gap:15px;flex-wrap:wrap;font-size:13px;font-weight:800;color:#46544c}
+.links button{border:0;background:none;color:inherit;cursor:pointer;font-size:inherit;font-weight:inherit;padding:8px 2px}
+.links button:hover,.links button.active{color:var(--orange)}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--green);color:white;padding:12px 20px;border-radius:10px;font-weight:800;font-size:13px;border:0;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--orange);transform:translateY(-2px)}.btn.light{background:#efe8da;color:var(--green)}
+.wrap{max-width:1180px;margin:auto;padding:0 22px}
+.page{display:none;min-height:65vh}.page.active{display:block}
+.hero{padding:70px 0 65px;display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}
+.eyebrow{display:inline-block;background:#e8eee7;color:var(--green);border:1px solid #d4e0d5;padding:7px 13px;border-radius:30px;font-size:12px;font-weight:800}
+h1{font-size:clamp(34px,5vw,60px);line-height:1.25;margin:18px 0;color:var(--ink);font-weight:900}h1 span,.accent{color:var(--orange)}
+.lead{font-size:16px;line-height:2;color:var(--muted);max-width:650px}
+.hero-art{min-height:350px;border-radius:28px;background:linear-gradient(145deg,#dce6dc,#f1dfcf);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid rgba(49,92,75,.2);border-radius:50%;width:290px;height:290px}.hero-art:after{width:390px;height:390px}
+.hero-mark{z-index:1;text-align:center;background:rgba(255,253,248,.82);padding:35px 48px;border-radius:22px;box-shadow:var(--shadow)}
+.hero-mark b{display:block;font:900 44px Montserrat,sans-serif;color:var(--green)}.hero-mark small{color:var(--orange);font-weight:800;letter-spacing:3px}
+.section{padding:50px 0}.section-head{text-align:center;margin-bottom:32px}.section-head h2{font-size:34px;margin:10px 0}.section-head p{color:var(--muted);line-height:1.9}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);transition:.25s}.card:hover{transform:translateY(-5px)}
+.visual{height:210px;display:grid;place-items:center;background:linear-gradient(135deg,#e5e9df,#f2dfcf);font-size:65px}
+.card-body{padding:21px}.card h3{margin:0 0 9px;font-size:19px}.card p{color:var(--muted);font-size:13px;line-height:1.9;min-height:48px}
+.page-hero{padding:55px 0 25px}.page-hero h1{font-size:44px;margin:12px 0}.page-hero p{max-width:750px;color:var(--muted);line-height:2}
+.info{background:var(--green2);color:#fff;padding:32px;border-radius:22px;display:flex;justify-content:space-between;align-items:center;gap:20px;margin:35px 0}
+.info p{color:#d7e1d9;line-height:1.8;margin-bottom:0}
+form{background:var(--paper);padding:28px;border-radius:20px;border:1px solid var(--line);box-shadow:var(--shadow);display:grid;grid-template-columns:1fr 1fr;gap:15px}
+label{display:block;font-size:12px;font-weight:800;margin-bottom:7px}
+input,select,textarea{width:100%;padding:13px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);font:inherit;font-size:13px;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--green)}.full{grid-column:1/-1}
+footer{background:#1f3029;color:#d9e2dc;text-align:center;padding:27px 15px;margin-top:55px;font-size:12px}
+.wa{position:fixed;bottom:20px;left:20px;background:#218b5b;color:#fff;padding:13px 18px;border-radius:40px;font-weight:800;box-shadow:var(--shadow);z-index:30}
+.note{font-size:12px;color:var(--muted);line-height:1.8;margin-top:15px}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding:45px 0}.grid{grid-template-columns:repeat(2,1fr)}.nav{align-items:flex-start;flex-wrap:wrap}.info{display:block}}
+@media(max-width:600px){.nav{display:block}.links{margin-top:12px;gap:8px}.links button{font-size:12px}.nav>.btn{display:none}.grid{grid-template-columns:1fr}.hero-art{min-height:250px}.hero-mark{padding:25px}.page-hero h1{font-size:34px}form{grid-template-columns:1fr}.full{grid-column:auto}.info{padding:24px}}
 </style>
 </head>
 <body>
-<div class="topbar">WEAVO <b>•</b> خامات متنوعة وطباعة مخصصة تناسب فكرتك</div>
-<header class="nav"><div class="navinner">
-<a class="logo" href="#home" aria-label="WEAVO">WEA<span>V</span>O<small>FABRICS & CUSTOM PRINTING</small></a>
-<nav class="navlinks"><a href="#home">الرئيسية</a><a href="#fabrics">الأقمشة والأكياس</a><a href="#dtf">DTF تيشيرتات وهوديز</a><a href="#wood">طباعة الخشب</a><a href="#contact">اطلب الآن</a></nav>
-<a class="btn dark" href="#contact">اطلب حسب الطلب ↗</a>
+<div class="top">WEAVO • خامات متنوعة وطباعة مخصصة بجودة تهتم بالتفاصيل</div>
+<header><div class="nav">
+<a class="logo" href="#" onclick="showPage('home');return false">WEA<span>V</span>O</a>
+<nav class="links">
+<button class="active" data-page="home" onclick="showPage('home')">الرئيسية</button>
+<button data-page="bags" onclick="showPage('bags')">الأكياس</button>
+<button data-page="fabrics" onclick="showPage('fabrics')">الأقمشة</button>
+<button data-page="shirts" onclick="showPage('shirts')">التيشيرتات</button>
+<button data-page="hoodies" onclick="showPage('hoodies')">الهوديز</button>
+<button data-page="wood" onclick="showPage('wood')">الخشب</button>
+<button data-page="contact" onclick="showPage('contact')">اطلب الآن</button>
+</nav>
+<button class="btn" onclick="showPage('contact')">ابدأ طلبك</button>
 </div></header>
+
 <main>
-<section class="hero" id="home">
-<div class="hero-copy reveal show"><div class="eyebrow">من الخامة لحد اللمسة الأخيرة</div><h1>فكرتك تستاهل<br><span>تتنفّذ بطريقتك.</span></h1><p>في WEAVO هتلاقي أقمشة متنوعة، وأكياس قماش منسوج مطبوعة وسادة، وطباعة DTF على الملابس، وطباعة على الخشب حسب طلبك.</p><div class="actions"><a class="btn" href="#contact">ابدأ طلبك الآن <span>←</span></a><a class="btn outline" href="#fabrics">اكتشف منتجاتنا ↓</a></div><div class="trustline"><span><i>✓</i> تنفيذ حسب الطلب</span><span><i>✓</i> اختيارات متنوعة</span><span><i>✓</i> تواصل مباشر</span></div></div>
-<div class="hero-visual reveal show"><div class="orb one"></div><div class="orb two"></div><div class="floating-label label1">خامات وألوان متنوعة</div><div class="shirt"><svg viewBox="0 0 180 190" aria-label="تيشيرت"><path d="M53 20 L26 33 L7 73 L37 88 L50 67 L50 175 Q90 188 130 175 L130 67 L143 88 L173 73 L154 33 L127 20 Q117 39 90 39 Q63 39 53 20Z" fill="#172b49" stroke="#fff" stroke-width="2"/><path d="M69 24 Q90 55 111 24" fill="none" stroke="#e7edf5" stroke-width="4"/><text x="90" y="104" text-anchor="middle" font-size="17" font-family="Arial" font-weight="bold" fill="#ff9a4d">WEAVO</text><text x="90" y="121" text-anchor="middle" font-size="7" font-family="Arial" letter-spacing="1" fill="#fff">YOUR DESIGN</text></svg></div><div class="fabricroll"></div><div class="woodframe">WEAVO<br><small>PRINTED FOR YOU</small></div><div class="floating-label label2">طباعة بتصميمك الخاص ✦</div></div>
+<section id="home" class="page active">
+<div class="wrap hero">
+<div><span class="eyebrow">Fabrics & Custom Printing</span><h1>فكرتك تستحق<br><span>تنفيذ مختلف.</span></h1>
+<p class="lead">في WEAVO بنوفر أكياس قماش منسوج، أقمشة متنوعة، طباعة مخصصة على التيشيرتات والهوديز، وطباعة على الخشب. اختار القسم وشوف التفاصيل.</p>
+<button class="btn" onclick="showPage('bags')">استكشف المنتجات ←</button>
+<button class="btn light" onclick="showPage('contact')">اطلب عرض سعر</button></div>
+<div class="hero-art"><div class="hero-mark"><b>WEAVO</b><small>MADE FOR YOUR BRAND</small></div></div>
+</div>
+<div class="section"><div class="wrap"><div class="section-head"><span class="eyebrow">الأقسام</span><h2>كل خدمة في <span class="accent">صفحة مستقلة</span></h2><p>اختار القسم اللي محتاجه واعرف تفاصيله.</p></div>
+<div class="grid">
+<div class="card"><div class="visual">🛍️</div><div class="card-body"><h3>أكياس القماش المنسوج</h3><p>أكياس بلاستيك منسوج، سادة أو مطبوعة، بمقاسات مختلفة.</p><button class="btn" onclick="showPage('bags')">عرض القسم</button></div></div>
+<div class="card"><div class="visual">🧵</div><div class="card-body"><h3>الأقمشة</h3><p>خامات متنوعة للاستخدامات المختلفة.</p><button class="btn" onclick="showPage('fabrics')">عرض القسم</button></div></div>
+<div class="card"><div class="visual">👕</div><div class="card-body"><h3>تيشيرتات</h3><p>طباعة لوجوهات ورسومات وتصميمات حسب الطلب.</p><button class="btn" onclick="showPage('shirts')">عرض القسم</button></div></div>
+<div class="card"><div class="visual">🧥</div><div class="card-body"><h3>هوديز</h3><p>هوديز بطباعة مخصصة وألوان ومقاسات متنوعة.</p><button class="btn" onclick="showPage('hoodies')">عرض القسم</button></div></div>
+<div class="card"><div class="visual">🪵</div><div class="card-body"><h3>الطباعة على الخشب</h3><p>هدايا وقطع خشبية بتصميمات مخصصة.</p><button class="btn" onclick="showPage('wood')">عرض القسم</button></div></div>
+<div class="card"><div class="visual">✉️</div><div class="card-body"><h3>اطلب الآن</h3><p>ابعت تفاصيل طلبك واستفسر عن السعر.</p><button class="btn" onclick="showPage('contact')">تواصل معنا</button></div></div>
+</div></div></div>
 </section>
 
-<div class="stats"><div class="stat reveal"><div class="icon">🧵</div><div><strong>أقمشة متعددة</strong><small>خامات واستخدامات مختلفة</small></div></div><div class="stat reveal delay1"><div class="icon">🛍️</div><div><strong>أكياس قماش منسوج</strong><small>شنط قماش بألوان وطباعات متنوعة</small></div></div><div class="stat reveal delay2"><div class="icon">👕</div><div><strong>طباعة ملابس وخشب</strong><small>DTF وبراويز خشبية حسب الطلب</small></div></div></div>
-
-<section class="fabrics" id="fabrics"><div class="section-inner">
-<div class="section-head reveal">
-<div class="eyebrow">الخامات والأكياس</div>
-<h2>الأقمشة وأكياس القماش المنسوج المطبوعة والسادة</h2>
-<p>اختار من تشكيلتنا المتنوعة من أكياس القماش المنسوج (المطبوعة والسادة بألوان الأسود والبيج) بالإضافة للأقمشة والأكياس البلاستيكية مع تحديد المقاس والطباعة.</p>
+<section id="bags" class="page"><div class="wrap">
+<div class="page-hero"><span class="eyebrow">WEAVO PRODUCTS</span><h1>أكياس <span>القماش المنسوج</span></h1><p>أكياس من البلاستيك المنسوج، عملية وقابلة للطباعة بأشكال وتصميمات مختلفة. تقدر تختار المقاس واللون والتصميم المناسب لاحتياجك.</p></div>
+<div class="grid">
+<div class="card"><div class="visual">🛍️</div><div class="card-body"><h3>كيس منسوج سادة</h3><p>شكل بسيط وعملي للاستخدام اليومي والتعبئة.</p></div></div>
+<div class="card"><div class="visual">🎨</div><div class="card-body"><h3>كيس بطباعة مخصصة</h3><p>إمكانية إضافة لوجو أو تصميم حسب طلبك.</p></div></div>
+<div class="card"><div class="visual">〰️</div><div class="card-body"><h3>قفل بحبل شد</h3><p>تصميم قابل للغلق من الأعلى عن طريق شد الحبل.</p></div></div>
 </div>
-
-<div class="fabric-grid">
-<!-- Card 1 -->
-<article class="fabric-card reveal">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0040.jpg" alt="كيس قماش منسوج أسود مطبوع Albatool Fashion" loading="lazy">
-<span class="photo-badge">WOVEN BAG - BLACK</span>
-</div>
-<div class="fabric-info">
-<h3>كيس قماش أسود مطبوع (Albtool)</h3>
-<p>أكياس قماشية منسوجة باللون الأسود جودة عالية مع طباعة الشعار للعلامات التجارية والمحلات.</p>
-<a class="mini-link" href="#contact" data-product="كيس قماش أسود مطبوع Albatool">اطلب كيس قماش أسود مطبوع ←</a>
-</div>
-</article>
-
-<!-- Card 2 -->
-<article class="fabric-card reveal delay1">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0051.jpg" alt="كيس قماش منسوج بيج مطبوع POSITIVE" loading="lazy">
-<span class="photo-badge">WOVEN BAG - BEIGE</span>
-</div>
-<div class="fabric-info">
-<h3>كيس قماش بيج مطبوع (POSITIVE)</h3>
-<p>أكياس قماشية باللون البيج الفاتح مع طباعة ملونة حسب طلبك، مناسبة للهدايا والتغليف.</p>
-<a class="mini-link" href="#contact" data-product="كيس قماش بيج مطبوع POSITIVE">اطلب كيس قماش بيج مطبوع ←</a>
-</div>
-</article>
-
-<!-- Card 3 -->
-<article class="fabric-card reveal delay2">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0053.jpg" alt="كيس قماش أسود مطبوع SUNSHINE" loading="lazy">
-<span class="photo-badge">WOVEN BAG - BLACK</span>
-</div>
-<div class="fabric-info">
-<h3>كيس قماش أسود مطبوع (SUNSHINE)</h3>
-<p>طباعة كتابة وتصميمات مميزة بألوان متناسقة وزاهية على أكياس القماش المنسوج الأسود.</p>
-<a class="mini-link" href="#contact" data-product="كيس قماش أسود مطبوع SUNSHINE">اطلب كيس قماش مطبوع ←</a>
-</div>
-</article>
-
-<!-- Card 4 -->
-<article class="fabric-card reveal">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0039.jpg" alt="كيس قماش منسوج بيج برباط مقاس كبير POSITIVE" loading="lazy">
-<span class="photo-badge">TOTE & DRAWSTRING</span>
-</div>
-<div class="fabric-info">
-<h3>كيس قماش بيج برباط (مقاس كبير)</h3>
-<p>شنطة قماشية بمقاس طولي كبير مع برباط إغلاق وتصميم مطبوع حسب الطلب.</p>
-<a class="mini-link" href="#contact" data-product="كيس قماش بيج برباط كبير">اطلب مقاس كبير برباط ←</a>
-</div>
-</article>
-
-<!-- Card 5 -->
-<article class="fabric-card reveal delay1">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0056.jpg" alt="كيس قماش منسوج بيج سادة برباط" loading="lazy">
-<span class="photo-badge">PLAIN BEIGE</span>
-</div>
-<div class="fabric-info">
-<h3>أكياس قماش بيج سادة</h3>
-<p>أكياس قماشية منسوجة بيج سادة جاهزة للطباعة أو الاستخدام المباشر للتغليف والمنتجات.</p>
-<a class="mini-link" href="#contact" data-product="كيس قماش بيج سادة">اطلب قماش بيج سادة ←</a>
-</div>
-</article>
-
-<!-- Card 6 -->
-<article class="fabric-card reveal delay2">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0058.jpg" alt="كيس قماش منسوج أسود سادة" loading="lazy">
-<span class="photo-badge">PLAIN BLACK</span>
-</div>
-<div class="fabric-info">
-<h3>أكياس قماش أسود سادة</h3>
-<p>شنطة وأكياس قماشية منسوجة سوداء متينة، متاحة بمقاسات مختلفة لتلبية احتياجاتك.</p>
-<a class="mini-link" href="#contact" data-product="كيس قماش أسود سادة">اطلب قماش أسود سادة ←</a>
-</div>
-</article>
-
-<!-- Card 7 -->
-<article class="fabric-card reveal">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0059.jpg" alt="شنطة قماشية بيج برباط وتصميم مطبوع" loading="lazy">
-<span class="photo-badge">CUSTOM PRINT</span>
-</div>
-<div class="fabric-info">
-<h3>شنط قماشية مخصصة برباط</h3>
-<p>تنفيذ كافة أشكال الحقائب والقماش المنسوج مع إمكانية إضافة شريط رباط وتخصيص المقاسات.</p>
-<a class="mini-link" href="#contact" data-product="شنطة قماش مخصصة برباط">اطلب تصميم خاص ←</a>
-</div>
-</article>
-
-<!-- Card 8 -->
-<article class="fabric-card reveal delay1">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0057.jpg" alt="أكياس قماشية منسوجة سوداء مقاسات متتالية" loading="lazy">
-<span class="photo-badge">VARIETY SIZES</span>
-</div>
-<div class="fabric-info">
-<h3>تشكيلة أكياس بمقاسات متنوعة</h3>
-<p>نوفر خيارات متنوعة من الأحجام والألوان طبقاً لاحتياج منتجات براندك أو المحل.</p>
-<a class="mini-link" href="#contact" data-product="أكياس قماش بمقاسات مختلفة">اطلب مقاسات متنوعة ←</a>
-</div>
-</article>
-
-<!-- Card 9 -->
-<article class="fabric-card reveal delay2">
-<div class="swatch photo-swatch">
-<img class="web-photo" src="IMG-20261029-WA0034.jpg" alt="قماش منسوج أسود عالي الجودة" loading="lazy">
-<span class="photo-badge">FABRIC MATERIAL</span>
-</div>
-<div class="fabric-info">
-<h3>خامات قماش وأكياس بلاستيك</h3>
-<p>توريد قماش وأكياس بلاستيكية وأقمشة منسوجة للطباعة والتغليف بكميات مختلفة.</p>
-<a class="mini-link" href="#contact" data-product="خامات قماش وأكياس بلاستيك">اطلب أقمشة وأكياس ←</a>
-</div>
-</article>
-</div>
+<div class="info"><div><h2>عايز تنفذ كيس بتصميمك؟</h2><p>ابعت المقاس والكمية والتصميم المطلوب علشان نساعدك.</p></div><button class="btn light" onclick="showPage('contact','الأكياس')">اطلب الأكياس</button></div>
 </div></section>
 
-<section class="services" id="dtf"><div class="section-inner"><div class="section-head reveal"><div class="eyebrow">قسم الطباعة على الملابس</div><h2>تيشيرتات وهوديز بطباعة DTF حسب الطلب</h2><p>اطبع اللوجو أو الرسمة أو التصميم اللي تختاره على الملابس. ابعت التصميم، وحدد المقاس واللون والكمية علشان نراجع تفاصيل طلبك.</p></div><div class="service-grid">
-<article class="service-card reveal"><div class="service-art photo-art"><span class="print-stamp">DTF PRINT</span><img class="web-photo" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1100&q=85" alt="تيشيرت جاهز للطباعة" loading="lazy"></div><div class="service-info"><h3>تيشيرتات مطبوعة</h3><p>تيشيرتات بتصميمك أو لوجو البراند، مع تحديد اللون والمقاسات حسب المتاح.</p><div class="chips"><span>لوجو</span><span>رسومات</span><span>طلبات أفراد وبراندات</span></div><a class="btn" href="#contact" data-product="طباعة DTF على تيشيرتات">اطلب طباعة تيشيرتات</a></div></article>
-<article class="service-card reveal delay1"><div class="service-art photo-art"><span class="print-stamp">CUSTOM HOODIE</span><img class="web-photo" src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=1100&q=85" alt="هودي ملابس مناسب للطباعة حسب الطلب" loading="lazy"></div><div class="service-info"><h3>هوديز مطبوعة</h3><p>هوديز بتصميم مخصص، مناسبة للبراندات والفرق والمجموعات والهدايا.</p><div class="chips"><span>تصميم خاص</span><span>مقاسات متنوعة</span><span>حسب الطلب</span></div><a class="btn" href="#contact" data-product="طباعة DTF على هوديز">اطلب طباعة هوديز</a></div></article>
-<article class="service-card reveal delay2"><div class="service-art photo-art"><span class="print-stamp">YOUR BRAND</span><img class="web-photo" src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=1100&q=85" alt="مجموعة تيشيرتات بألوان مختلفة" loading="lazy"></div><div class="service-info"><h3>طباعة لوجو أو تصميم خاص</h3><p>عندك تصميم جاهز؟ ابعتهولنا مع نوع القطعة والكمية المطلوبة.</p><div class="chips"><span>لوجوهات</span><span>أسماء</span><span>تصميمات مخصصة</span></div><a class="btn" href="#contact" data-product="طباعة تصميم خاص DTF">اطلب تصميمك</a></div></article>
-</div></div></section>
+<section id="fabrics" class="page"><div class="wrap">
+<div class="page-hero"><span class="eyebrow">FABRICS</span><h1>الأقمشة <span>والخامات</span></h1><p>خامات متنوعة للاستخدامات المختلفة، مع إمكانية الاستفسار عن النوع والمقاس والتجهيز المناسب لطلبك.</p></div>
+<div class="grid"><div class="card"><div class="visual">🧶</div><div class="card-body"><h3>خامات متنوعة</h3><p>اختيارات مختلفة حسب طبيعة الاستخدام.</p></div></div>
+<div class="card"><div class="visual">🧵</div><div class="card-body"><h3>تجهيز حسب الطلب</h3><p>تواصل معنا لتحديد الخامة والمواصفات.</p></div></div>
+<div class="card"><div class="visual">📐</div><div class="card-body"><h3>مقاسات مختلفة</h3><p>اسأل عن المقاسات المتاحة والكميات.</p></div></div></div>
+<div class="info"><div><h2>استفسر عن الخامات</h2><p>حدد الاستخدام المطلوب وسنساعدك في اختيار المناسب.</p></div><button class="btn light" onclick="showPage('contact','الأقمشة')">اطلب الآن</button></div>
+</div></section>
 
-<section id="wood"><div class="section-inner"><div class="section-head reveal"><div class="eyebrow">قسم الطباعة على الخشب</div><h2>تفاصيل خشبية بطابعك الخاص</h2><p>طباعة حسب الطلب على قطع خشبية للهدايا والتكريم والديكور. ابعتلنا نوع القطعة والمقاس والتصميم المطلوب.</p></div><div class="service-grid">
-<article class="service-card reveal"><div class="service-art photo-art wood"><img class="web-photo" src="https://images.pexels.com/photos/15585620/pexels-photo-15585620.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="برواز خشبي فارغ للتصميم والطباعة" loading="lazy"></div><div class="service-info"><h3>شهادات وسندات خشبية</h3><p>تصميمات للتكريم والتقدير أو المناسبات، مع كتابة الاسم والعبارة حسب الطلب.</p><div class="chips"><span>أسماء</span><span>عبارات</span><span>تكريم</span></div><a class="btn" href="#contact" data-product="طباعة شهادة أو سند على الخشب">اطلب شهادة / سند</a></div></article>
-<article class="service-card reveal delay1"><div class="service-art photo-art wood"><img class="web-photo" src="https://images.pexels.com/photos/7319336/pexels-photo-7319336.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="برواز صورة على طاولة خشبية" loading="lazy"></div><div class="service-info"><h3>براويز خشب</h3><p>براويز مطبوعة حسب التصميم، مناسبة للصور والهدايا والديكور.</p><div class="chips"><span>صور</span><span>هدايا</span><span>ديكور</span></div><a class="btn" href="#contact" data-product="طباعة على برواز خشب">اطلب برواز</a></div></article>
-<article class="service-card reveal delay2"><div class="service-art photo-art wood"><img class="web-photo" src="https://images.pexels.com/photos/7877826/pexels-photo-7877826.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="مجموعة براويز خشبية على الحائط" loading="lazy"></div><div class="service-info"><h3>هدايا خشبية مخصصة</h3><p>فكرتك أو شعارك أو اسمك على قطعة خشب حسب المقاس والتصميم المتاح.</p><div class="chips"><span>شعار</span><span>اسم</span><span>حسب الطلب</span></div><a class="btn" href="#contact" data-product="طباعة هدية خشبية مخصصة">اطلب هدية خشب</a></div></article>
-</div></div></section>
+<section id="shirts" class="page"><div class="wrap">
+<div class="page-hero"><span class="eyebrow">CUSTOM T-SHIRTS</span><h1>تيشيرتات <span>بطباعة مخصصة</span></h1><p>تيشيرتات بتصميماتك الخاصة، مناسبة للبراندات والفرق والفعاليات والهدايا.</p></div>
+<div class="grid"><div class="card"><div class="visual">👕</div><div class="card-body"><h3>طباعة لوجو</h3><p>اطبع اسم أو شعار البراند على التيشيرت.</p></div></div>
+<div class="card"><div class="visual">🖌️</div><div class="card-body"><h3>تصميمات ورسومات</h3><p>تنفيذ رسومات وتصميمات حسب فكرتك.</p></div></div>
+<div class="card"><div class="visual">🎨</div><div class="card-body"><h3>ألوان ومقاسات</h3><p>اسأل عن الألوان والمقاسات المتاحة.</p></div></div></div>
+<div class="info"><div><h2>جهز تصميم التيشيرت</h2><p>ابعت التصميم والعدد والمقاسات المطلوبة.</p></div><button class="btn light" onclick="showPage('contact','التيشيرتات')">اطلب تيشيرتات</button></div>
+</div></section>
 
-<section class="process"><div class="section-inner"><div class="section-head reveal"><div class="eyebrow">طريقة الطلب</div><h2>من فكرتك لطلبك في 4 خطوات</h2><p>خلّي تفاصيل طلبك واضحة علشان نقدر نراجعها ونرد عليك بالسعر ومدة التنفيذ.</p></div><div class="steps"><div class="step reveal"><b>01</b><h3>اختار الخدمة</h3><p>أكياس قماش منسوج (سادة أو مطبوعة)، أقمشة، أكياس بلاستيك، طباعة DTF، أو خشب.</p></div><div class="step reveal delay1"><b>02</b><h3>ابعت التفاصيل</h3><p>اكتب المقاس واللون والكمية، وارفق التصميم في واتساب لو موجود.</p></div><div class="step reveal delay2"><b>03</b><h3>راجع العرض</h3><p>نتواصل معاك لتأكيد التفاصيل والسعر والتوافر.</p></div><div class="step reveal delay3"><b>04</b><h3>تأكيد الطلب</h3><p>بعد الاتفاق على كل التفاصيل يتم تأكيد الطلب وموعده.</p></div></div></div></section>
+<section id="hoodies" class="page"><div class="wrap">
+<div class="page-hero"><span class="eyebrow">CUSTOM HOODIES</span><h1>هوديز <span>بطباعة مخصصة</span></h1><p>صفحة مستقلة للهوديز، اختار التصميم واللون والمقاس وابعت تفاصيل طلبك.</p></div>
+<div class="grid"><div class="card"><div class="visual">🧥</div><div class="card-body"><h3>هودي سادة</h3><p>تصميم بسيط مناسب للاستخدام اليومي.</p></div></div>
+<div class="card"><div class="visual">✨</div><div class="card-body"><h3>هودي مطبوع</h3><p>إضافة لوجو أو رسمة أو كتابة حسب الطلب.</p></div></div>
+<div class="card"><div class="visual">📏</div><div class="card-body"><h3>اختيار المقاس</h3><p>تواصل لمعرفة المقاسات والألوان المتاحة.</p></div></div></div>
+<div class="info"><div><h2>اطلب هودي بتصميمك</h2><p>ابعت اللون والمقاس والتصميم والكمية.</p></div><button class="btn light" onclick="showPage('contact','الهوديز')">اطلب هودي</button></div>
+</div></section>
 
-<section class="contact" id="contact"><div class="section-inner"><div class="contactbox"><div class="contact-copy reveal"><div class="eyebrow">جاهز تبدأ؟</div><h2>احكيلنا فكرتك<br>وإحنا نساعدك تنفذها.</h2><p>املأ التفاصيل اللي تعرفها، وهيتجهزلك نص رسالة على واتساب تبعتها مباشرة. تقدر تبعت صور أو ملفات التصميم من المحادثة.</p><div class="contact-note">مهم: السعر ومدة التنفيذ بيتحددوا بعد مراجعة نوع الخامة أو الطباعة، المقاس، الكمية والتصميم.</div></div><form class="quoteform reveal delay1" id="quoteForm"><input id="name" placeholder="اسمك" required><input id="phone" placeholder="رقم تليفونك" required><select id="type" required><option value="">اختار القسم</option><option>أكياس قماش منسوج مطبوعة</option><option>أكياس قماش منسوج سادة</option><option>قماش بأنواع مختلفة</option><option>أكياس بلاستيك</option><option>طباعة DTF على تيشيرتات</option><option>طباعة DTF على هوديز</option><option>طباعة لوجو أو تصميم DTF</option><option>شهادات وسندات خشبية</option><option>براويز خشب</option><option>هدايا خشبية مخصصة</option><option>خدمة أخرى</option></select><input id="qty" placeholder="الكمية المطلوبة (اختياري)"><input id="size" placeholder="المقاس / اللون (اختياري)"><input id="design" placeholder="هل عندك تصميم جاهز؟ (اختياري)"><textarea id="details" placeholder="اكتب تفاصيل إضافية عن طلبك..."></textarea><button type="submit">ابعت طلبك على واتساب ←</button></form></div></div></section>
+<section id="wood" class="page"><div class="wrap">
+<div class="page-hero"><span class="eyebrow">WOOD PRINTING</span><h1>الطباعة على <span>الخشب</span></h1><p>منتجات خشبية مطبوعة بتصميمات مخصصة، مناسبة للهدايا والديكور والتكريم.</p></div>
+<div class="grid"><div class="card"><div class="visual">🖼️</div><div class="card-body"><h3>براويز خشبية</h3><p>صور وعبارات وتصميمات خاصة.</p></div></div>
+<div class="card"><div class="visual">🏆</div><div class="card-body"><h3>شهادات وتكريم</h3><p>قطع خشبية مناسبة للتقدير والهدايا.</p></div></div>
+<div class="card"><div class="visual">🎁</div><div class="card-body"><h3>هدايا مخصصة</h3><p>اختار الفكرة والتصميم المطلوب.</p></div></div></div>
+<div class="info"><div><h2>نفذ فكرتك على الخشب</h2><p>ابعت التصميم والمقاس المطلوب.</p></div><button class="btn light" onclick="showPage('contact','الخشب')">اطلب الآن</button></div>
+</div></section>
+
+<section id="contact" class="page"><div class="wrap">
+<div class="page-hero"><span class="eyebrow">CONTACT WEAVO</span><h1>ابدأ <span>طلبك الآن</span></h1><p>اكتب تفاصيل طلبك، واضغط إرسال على واتساب علشان توصلك رسالة جاهزة بالتفاصيل.</p></div>
+<form id="orderForm">
+<div><label for="name">الاسم</label><input id="name" name="name" placeholder="اكتب اسمك" required></div>
+<div><label for="phone">رقم الموبايل</label><input id="phone" name="phone" placeholder="رقم التواصل" required></div>
+<div><label for="product">القسم المطلوب</label><select id="product" name="product"><option>الأكياس</option><option>الأقمشة</option><option>التيشيرتات</option><option>الهوديز</option><option>الخشب</option><option>استفسار عام</option></select></div>
+<div><label for="quantity">الكمية</label><input id="quantity" name="quantity" placeholder="مثال: 100 قطعة"></div>
+<div class="full"><label for="details">تفاصيل الطلب</label><textarea id="details" name="details" rows="5" placeholder="اكتب المقاس واللون والتصميم وأي تفاصيل إضافية..."></textarea></div>
+<div class="full"><button class="btn" type="submit">إرسال الطلب على واتساب</button><p class="note">سيتم فتح واتساب برسالة تحتوي على البيانات التي كتبتها لمراجعتها وإرسالها.</p></div>
+</form>
+</div></section>
 </main>
-<footer class="footer">© <span id="year"></span> <strong>WEAVO</strong> — Fabrics & Custom Printing. جميع الحقوق محفوظة.</footer>
-<a class="wa" href="https://wa.me/201276989012" target="_blank" rel="noopener">◉ تواصل واتساب</a>
+<footer>© <span id="year"></span> <b>WEAVO</b> — Fabrics & Custom Printing. جميع الحقوق محفوظة.</footer>
+<a class="wa" href="https://wa.me/201276989012" target="_blank" rel="noopener">واتساب ↗</a>
 <script>
+const pages=[...document.querySelectorAll('.page')];
+function showPage(id,product){
+  pages.forEach(p=>p.classList.toggle('active',p.id===id));
+  document.querySelectorAll('.links button').forEach(b=>b.classList.toggle('active',b.dataset.page===id));
+  if(product)document.getElementById('product').value=product;
+  window.scrollTo({top:0,behavior:'smooth'});
+  history.replaceState(null,'','#'+id);
+}
+window.addEventListener('load',()=>{const id=location.hash.slice(1);if(document.getElementById(id)?.classList.contains('page'))showPage(id)});
 document.getElementById('year').textContent=new Date().getFullYear();
-document.querySelectorAll('[data-product]').forEach(function(link){link.addEventListener('click',function(){var type=document.getElementById('type');var value=this.dataset.product;type.value=value;var details=document.getElementById('details');if(!details.value.trim()){details.value='المنتج المطلوب: '+value;}});});
-var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add('show');observer.unobserve(entry.target)}})},{threshold:.12});document.querySelectorAll('.reveal:not(.show)').forEach(function(el){observer.observe(el)});
-document.getElementById('quoteForm').addEventListener('submit',function(e){e.preventDefault();var v=function(id){return document.getElementById(id).value.trim()};var message='طلب جديد من موقع WEAVO%0Aالاسم: '+encodeURIComponent(v('name'))+'%0Aرقم التليفون: '+encodeURIComponent(v('phone'))+'%0Aالقسم: '+encodeURIComponent(v('type'))+'%0Aالكمية: '+encodeURIComponent(v('qty')||'لم تحدد')+'%0Aالمقاس/اللون: '+encodeURIComponent(v('size')||'لم يحدد')+'%0Aالتصميم: '+encodeURIComponent(v('design')||'لم يحدد')+'%0Aتفاصيل إضافية: '+encodeURIComponent(v('details')||'لا توجد');window.open('https://wa.me/201276989012?text='+message,'_blank','noopener');});
+document.getElementById('orderForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value.trim();
+  const phone=document.getElementById('phone').value.trim();
+  const product=document.getElementById('product').value;
+  const quantity=document.getElementById('quantity').value.trim()||'لم تحدد';
+  const details=document.getElementById('details').value.trim()||'لا توجد تفاصيل إضافية';
+  const message=`طلب جديد من موقع WEAVO%0Aالاسم: ${encodeURIComponent(name)}%0Aرقم الموبايل: ${encodeURIComponent(phone)}%0Aالقسم: ${encodeURIComponent(product)}%0Aالكمية: ${encodeURIComponent(quantity)}%0Aالتفاصيل: ${encodeURIComponent(details)}`;
+  window.open('https://wa.me/201276989012?text='+message,'_blank');
+});
 </script>
 </body>
 </html>
